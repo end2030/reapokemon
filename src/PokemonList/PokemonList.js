@@ -89,6 +89,12 @@ class PokemonList extends Component {
                 })
 
         }
+        const titleCase = (str)=>{
+            return str
+                .split(' ')
+                .map((word) => word[0].toUpperCase() + word.slice(1).toLowerCase())
+                .join(' ');
+        }
         return (
             <div id="list">
                 <H2>POKEMON LIST</H2>
@@ -122,7 +128,7 @@ class PokemonList extends Component {
                                                 color: '#fff'
                                             }}
                                         >
-                                            {res.name}
+                                            {titleCase(res.name)}
                                         </div>
                                     </Link>
                                 </Li>
