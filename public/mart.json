@@ -1,0 +1,10 @@
+{
+  "aplication":[
+    {"name" : "Ala Mart"},
+    {"logo" : "favicon.ico"},
+    {"icon" :[
+       "keranjang": "keranjang.png" 
+      ]
+    }
+  ]
+}
