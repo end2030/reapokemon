@@ -11,7 +11,8 @@
         "right_arrow" : "right_arrow.png",
         "shop" : "shop.png",
         "dropship" : "dropship.png",
-        "warning" : "warning.png"
+        "warning" : "warning.png",
+        "cari" : "botton_search.png"
         }
     },
     { "aksi" : {
